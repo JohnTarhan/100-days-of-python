@@ -27,7 +27,7 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-answer1 = input('You are at a cross road. Would you like to go? Type right or left?')
+answer1 = input('You are at a cross road. Would you like to go? Type right or left?').lower()
 
 if answer1 == "left":
   answer2 = input("You've come to a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.")
