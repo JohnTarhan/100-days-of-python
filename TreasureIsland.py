@@ -30,12 +30,12 @@ print("Your mission is to find the treasure.")
 answer1 = input('You are at a cross road. Would you like to go? Type right or left?').lower()
 
 if answer1 == "left":
-  answer2 = input("You've come to a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.")
+  answer2 = input("You've come to a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.").lower()
 else:
   print('You fell into a hole. Game Over.')
   
 if answer2 == "wait":
-  answer3 = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?')
+  answer3 = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?').lower()
 else:
   print("Attacked by trout. Game over.")
 
